@@ -32,3 +32,5 @@ git remote add origin git@github.com:2muchmustard/learngit.git   #将当前git�
 git push -u origin master  #第一次推送分支
 
 git puash origin master #推送
+
+git clone git@github.com:2muchmustard/gitskill.git  #先创建远程库，再克隆到本地
