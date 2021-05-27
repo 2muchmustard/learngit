@@ -19,3 +19,16 @@ git reflog  #命令日志
 
 git restore <file>  #撤销工作区修改
 git restore staged <file>  #撤销暂存区的修改
+
+rm <file>
+git rm <file>
+git commit         #删除操作,误删则 restore 撤销工作区修改
+
+
+ssh-keygen -t rsa -C "youremail@example.com" #在用户目录下，创建SSH Key
+
+git remote add origin git@github.com:2muchmustard/learngit.git   #将当前git库关联到远程库
+
+git push -u origin master  #第一次推送分支
+
+git puash origin master #推送
