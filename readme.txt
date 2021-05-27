@@ -43,3 +43,6 @@ git branch -d <dev>  #删除该分支
 git switch -c <dev>  #创建并切换到分支<>,该命令旨在代替checkout
 git switch <dev>   #转到分支<>
 git log    #查看分支合并情况
+
+
+add 1
