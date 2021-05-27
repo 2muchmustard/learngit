@@ -44,5 +44,5 @@ git switch -c <dev>  #创建并切换到分支<>,该命令旨在代替checkout
 git switch <dev>   #转到分支<>
 git log    #查看分支合并情况
 
+git merge --no-ff -m "<>" <dev>    #合并分支时会留下分支信息
 
-add 1
