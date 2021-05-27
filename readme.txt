@@ -17,5 +17,5 @@ git log --pretty=oneline  #查看版本库状态概况
 git reset --hard xxxx  #回到某个版本
 git reflog  #命令日志
 
-git restore --<file>  #撤销工作区修改
-git restore --staged <file>  #撤销暂存区的修改
+git restore <file>  #撤销工作区修改
+git restore staged <file>  #撤销暂存区的修改
