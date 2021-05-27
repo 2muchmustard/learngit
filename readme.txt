@@ -34,3 +34,7 @@ git push -u origin master  #第一次推送分支
 git puash origin master #推送
 
 git clone git@github.com:2muchmustard/gitskill.git  #先创建远程库，再克隆到本地
+
+git checkout -b <dev>  #创建一个分支dev
+
+git branch #查看所有分支，当前分支标*
