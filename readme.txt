@@ -40,5 +40,6 @@ git branch #查看所有分支，当前分支标*
 git checkout <dev>  #切换到<>分支
 git merge <dev>  #把<>分支合并到当前分支上
 git branch -d <dev>  #删除该分支
-
+git switch -c <dev>  #创建并切换到分支<>,该命令旨在代替checkout
+git switch <dev>   #转到分支<>
 
