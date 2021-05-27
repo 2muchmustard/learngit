@@ -16,3 +16,5 @@ git log #查看版本库状态详情
 git log --pretty=oneline  #查看版本库状态概况
 git reset --hard xxxx  #回到某个版本
 git reflog  #命令日志
+
+git restore --<file>  #撤销修改,回到最近一次add或者commit的状态
