@@ -40,6 +40,7 @@ git branch #查看所有分支，当前分支标*
 git checkout <dev>  #切换到<>分支
 git merge <dev>  #把<>分支合并到当前分支上，无法自动合并时要先解决冲突，再提交。
 git branch -d <dev>  #删除该分支
+git branch -D <dev>  #强制删除已经提交的分支
 git switch -c <dev>  #创建并切换到分支<>,该命令旨在代替checkout
 git switch <dev>   #转到分支<>
 git log    #查看分支合并情况
