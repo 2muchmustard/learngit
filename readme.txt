@@ -33,6 +33,8 @@ git push -u origin master  #第一次推送分支
 
 git puash origin master #推送
 
+git pull  #拉取
+
 git clone git@github.com:2muchmustard/gitskill.git  #先创建远程库，再克隆到本地
 
 git checkout -b <dev>  #创建一个分支dev
@@ -53,3 +55,6 @@ git stash apply  #恢复
 git stash drop   #删除
 git stash pop   #恢复并删除
 git cherry-pick <commit>    #将特定的提交合并到当前分支
+
+git checkout -b <dev> origin/<dev>                #在本地创建与远程分支对应的分支
+git branch --set-upstream-to=origin/<dev> <dev>   #绑定远程库分支到本地库分支
