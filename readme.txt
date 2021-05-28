@@ -51,3 +51,4 @@ git stash list  #查看存储列表,列表为栈，即最近的一次存储为st
 git stash apply  #恢复
 git stash drop   #删除
 git stash pop   #恢复并删除
+git cherry-pick <commit>    #将特定的提交合并到当前分支
