@@ -59,4 +59,4 @@ git cherry-pick <commit>    #将特定的提交合并到当前分支
 git checkout -b <dev> origin/<dev>                #在本地创建与远程分支对应的分支
 git branch --set-upstream-to=origin/<dev> <dev>   #绑定远程库分支到本地库分支
 
-git rebase  #把本地未push的分叉提交历史整理成直线
+git rebase  #把本地未push的分叉提交历史整理成直线(?)
