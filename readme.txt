@@ -46,3 +46,8 @@ git log    #查看分支合并情况
 
 git merge --no-ff -m "<>" <dev>    #合并分支时会留下分支信息
 
+git stash  #存储工作区
+git stash list  #查看存储列表,列表为栈，即最近的一次存储为stash@{0}
+git stash apply  #恢复
+git stash drop   #删除
+git stash pop   #恢复并删除
