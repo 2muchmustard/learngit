@@ -60,3 +60,8 @@ git checkout -b <dev> origin/<dev>                #在本地创建与远程分�
 git branch --set-upstream-to=origin/<dev> <dev>   #绑定远程库分支到本地库分支
 
 git rebase  #把本地未push的分叉提交历史整理成直线(?)
+
+git tag <v1.0>   #创建标签，默认为HEAD
+git tag    #查询标签
+git tag <v0.9> <commit id>  #对某次提交打标签
+git tag -a <v0.1> -m "balabala..."  #创建标签时指定标签信息
